@@ -1,3 +1,4 @@
+function justDoTheThing() {
 function runAutoland() {
 //Plane list
 if (geofs.aircraft.instance.id == 4172 || geofs.aircraft.instance.id == 3591 || geofs.aircraft.instance.id == 3140 || geofs.aircraft.instance.id == 3534 || geofs.aircraft.instance.id == 3460 || geofs.aircraft.instance.id == 3341 || geofs.aircraft.instance.id == 3292 || geofs.aircraft.instance.id == 3180 || geofs.aircraft.instance.id == 3179 || geofs.aircraft.instance.id == 3054 || geofs.aircraft.instance.id == 3011 || geofs.aircraft.instance.id == 2989 || geofs.aircraft.instance.id == 2973 || geofs.aircraft.instance.id == 2953 || geofs.aircraft.instance.id == 2943 || geofs.aircraft.instance.id == 2899 || geofs.aircraft.instance.id == 2879 || geofs.aircraft.instance.id == 2878 || geofs.aircraft.instance.id == 2871 || geofs.aircraft.instance.id == 2870 || geofs.aircraft.instance.id == 2865 || geofs.aircraft.instance.id == 2857 || geofs.aircraft.instance.id == 2856 || geofs.aircraft.instance.id == 2843 || geofs.aircraft.instance.id == 2772 || geofs.aircraft.instance.id == 2769 || geofs.aircraft.instance.id == 2556 || geofs.aircraft.instance.id == 2461 || geofs.aircraft.instance.id == 2395 || geofs.aircraft.instance.id == 2386 || geofs.aircraft.instance.id == 2153 || geofs.aircraft.instance.id == 252 || geofs.aircraft.instance.id == 244 || geofs.aircraft.instance.id == 242 || geofs.aircraft.instance.id == 240 || geofs.aircraft.instance.id == 239 || geofs.aircraft.instance.id == 238 || geofs.aircraft.instance.id == 237 || geofs.aircraft.instance.id == 20 || geofs.aircraft.instance.id == 18 || geofs.aircraft.instance.id == 10 || geofs.aircraft.instance.id == 7 || geofs.aircraft.instance.id == 4 || geofs.aircraft.instance.id == 5) {
@@ -27,3 +28,4 @@ geofs.autopilot.turnOff();
    };
 };
 autolandInterval = setInterval(function(){runAutoland()},100)
+}
