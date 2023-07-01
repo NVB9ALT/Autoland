@@ -7,7 +7,7 @@ if (geofs.autopilot.mode == "NAV" && geofs.animation.values.haglFeet <= 250) {
 geofs.autopilot.setMode("HDG");
 //Keep the plane descending!
 geofs.autopilot.setAltitude(1);
-geofs.autopilot.setVerticalSpeed(-500);
+geofs.autopilot.setVerticalSpeed(-250);
 //If the aircraft is close to sea level and the autopilot doesn't want to abruptly hit its set altitude, we just force the plane to stall onto the runway
 setTimeout(() => {
 geofs.autopilot.setSpeed(0);
